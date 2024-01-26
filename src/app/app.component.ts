@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { CategoryComponent } from './components/category/category.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { ProductComponent } from './components/product/product.component';
+import { CartSummaryComponent } from './components/cart-summary/cart-summary.component';
 
 
 @Component({
@@ -13,7 +14,8 @@ import { ProductComponent } from './components/product/product.component';
             RouterOutlet,
             CategoryComponent,
             NaviComponent,
-            ProductComponent
+            ProductComponent,
+            CartSummaryComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
